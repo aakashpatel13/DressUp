@@ -1,0 +1,234 @@
+/* set & repeat image in background for whole project*/
+
+body {
+    background-image: url(backImage.jpg);
+    background-repeat: repeat;
+    margin-top: 0;
+}
+
+/*height of the header */
+
+header {
+    height: 200px;
+}
+
+header ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a:hover {
+    background-color: lightcoral;
+}
+
+.nav .current {
+    background-color: grey;
+}
+
+/*instead of NAV i used <ul> & <li> and display it inline*/
+
+header ul li {
+    display: inline;
+    margin-left: 0;
+}
+
+/*here I used google font Roboto */
+
+header a {
+    color: black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0px 25px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+/* css for main */
+
+.homeimg1 {
+    width: 1000px;
+    margin-top: 20px;
+    height: 300px;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+/*this class used in outer div*/
+
+.container {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    padding: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+.icon {
+    text-align: left;
+    margin-left: 0px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+}
+
+div>div>h2 {
+    color: black;
+}
+
+/*for  footer Icons social icon*/
+
+p {
+    text-align: left;
+    margin-top: 0;
+}
+
+/* For all <hr> */
+
+hr {
+    height: 1px;
+    background-color: blue;
+}
+
+/* General CSS for <h1> to <h6> */
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(99, 99, 99);
+    margin-left: 25px;
+}
+
+.caption {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    color: #444;
+    letter-spacing: -.5px;
+    margin-bottom: .76923rem;
+    text-align: center;
+}
+
+.detailcaption {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    color: rgb(110, 103, 103);
+    letter-spacing: -.5px;
+    margin-bottom: .76923rem;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*for footer copyright*/
+
+.head-quarter {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.help-line {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+/*it will select child <img> of <h3>*/
+
+h3>img {
+    width: 25px;
+}
+
+/*Divide my footer into 3 parts using  <div>*/
+
+/* class for head-quarter details*/
+
+.div1Head {
+    width: 400px;
+    padding-left: 10px;
+    float: left;
+    height: 400px;
+    margin-left: 60px;
+}
+
+#footericon {
+    width: 150px;
+    height: 150px;
+}
+
+/* class for Map*/
+
+.div2Map {
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    text-align: center;
+}
+
+/* class for social media icon*/
+
+.div3Social {
+    margin-top: 10px;
+    width: 400px;
+    padding-left: 5px;
+    float: left;
+    height: 400px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+/* used font awesome Icons for social media link */
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

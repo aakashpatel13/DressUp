@@ -1,0 +1,36 @@
+.productimg {
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: rgb(230, 21, 56);
+    padding: 50px;
+    width: 150px;
+    margin: 62px;
+    color: white;
+}
+
+.product {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 3px;
+    width: 550px;
+    margin: 50px;
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+table {
+    border: 2px solid black;
+    padding: 1px;
+    border-spacing: 40px;
+}
+
+span {
+    color: red;
+}

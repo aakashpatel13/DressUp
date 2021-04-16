@@ -1,0 +1,60 @@
+/* CSS FOR PRODUCT PAGE*/
+
+/*divide <main> into 2 <div> */
+
+/* div 1 css to display product image */
+
+.div1 {
+    width: 500px;
+    height: 600PX;
+    border-radius: 15px;
+    float: left;
+    padding: 20 px;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+/* css for Product images*/
+
+.div1 img {
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: rgb(230, 21, 56);
+    padding: 70px;
+    margin: 70px;
+    color: wheat;
+    display: inline;
+}
+
+/* div 1 css to display product Price & Specification */
+
+.div2 {
+    text-align: left;
+    width: 500px;
+    height: 600PX;
+    float: left;
+    border-radius: 15px;
+    padding: 30 px;
+    margin-top: 5%;
+}
+
+.div2 h2 {
+    color: black;
+    font-size: 26px;
+    text-align: center;
+}
+
+.div2 p {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.div1 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+b {
+    font-size: 16;
+    font-family: 'Times New Roman';
+}
